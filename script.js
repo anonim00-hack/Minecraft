@@ -5,7 +5,6 @@ const elbutclose = document.querySelector('.close');
 const elbutall = document.querySelector('.all');
 const elbutprog = document.querySelector('.programmers');
 const elbutfun = document.querySelector('.fun');
-const elbutaudio = document.querySelector('.type-audio');
 const elsites = document.querySelectorAll('.site');
 const elfunsites = document.querySelectorAll('.fun-site');
 const elprogsites = document.querySelectorAll('.programmers-site');
@@ -37,12 +36,6 @@ elbutfun.addEventListener('click', () => {
     elfunsites.forEach(funsite => {
         funsite.classList.remove('hidden');
     });
-});
-elbutaudio.addEventListener('click', () => {
-    elaudio.forEach(audio => {
-        audio.classList.toggle('hidden');
-    });
-    ellinebox.classList.toggle('an-hidden')
 });
 elbutall.addEventListener('click', () => {
     elfunsites.forEach(funsite => {
