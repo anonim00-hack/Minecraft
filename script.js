@@ -5,10 +5,14 @@ const elbutclose = document.querySelector('.close');
 const elbutall = document.querySelector('.all');
 const elbutprog = document.querySelector('.programmers');
 const elbutfun = document.querySelector('.fun');
+const elbutall2 = document.querySelector('.all-2');
+const elbutrock = document.querySelector('.rock');
+const elbutquiet = document.querySelector('.quiet');
 const elsites = document.querySelectorAll('.site');
 const elfunsites = document.querySelectorAll('.fun-site');
 const elprogsites = document.querySelectorAll('.programmers-site');
-const elaudio = document.querySelectorAll('.audio');
+const elrockmusic = document.querySelectorAll('.rock-music');
+const elquietmusic = document.querySelectorAll('.quiet-music');
 const ellinebox = document.querySelector('.line-box');
 
 elbut.addEventListener('click', () => {
@@ -43,6 +47,30 @@ elbutall.addEventListener('click', () => {
     });
     elprogsites.forEach(progsite => {
         progsite.classList.remove('hidden');
+    });
+});
+elbutall2.addEventListener('click', () => {
+    elrockmusic.forEach(hide => {
+        hide.classList.remove('hidden');
+    });
+    elquietmusic.forEach(visible => {
+        visible.classList.remove('hidden');
+    });
+});
+elbutrock.addEventListener('click', () => {
+    elrockmusic.forEach(hide => {
+        hide.classList.remove('hidden');
+    });
+    elquietmusic.forEach(visible => {
+        visible.classList.add('hidden');
+    });
+});
+elbutquiet.addEventListener('click', () => {
+    elrockmusic.forEach(hide => {
+        hide.classList.add('hidden');
+    });
+    elquietmusic.forEach(visible => {
+        visible.classList.remove('hidden');
     });
 });
 document.addEventListener('keydown', function(event) {
