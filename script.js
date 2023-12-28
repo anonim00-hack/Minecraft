@@ -1,13 +1,4 @@
 const elbox = document.querySelector('.links');
-const elbutmenu = document.querySelector('.menu');
-const elbutclose = document.querySelector('.close');
-
-elbutmenu.addEventListener('click', () => {
-    elbox.classList.add('visible');
-});
-elbutclose.addEventListener('click', () => {
-    elbox.classList.remove('visible');
-});
 // elbutprog.addEventListener('click', () => {
 //     elfunsites.forEach(funsite => {
 //         funsite.classList.add('hidden');
