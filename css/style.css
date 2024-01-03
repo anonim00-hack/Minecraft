@@ -12,6 +12,7 @@ margin:0 auto;padding:0 20px;width:100%;max-width:1200px;
 .flex-wrap{display:flex;flex-wrap:wrap;}
 .last-child{margin-bottom:0 !important;}
 .img{width:100%;;max-width:300px;}
+.antires{display:none !important;}
 /* responsive */
 @media screen and (max-width:750px) {
 .fs{font-size:20px;}
@@ -21,4 +22,8 @@ margin:0 auto;padding:0 20px;width:100%;max-width:1200px;
 .small-m{margin:20px auto !important;}
 .small-my{margin:15px 0 !important;}
 .column{display:flex;flex-direction:column;}
+}
+@media screen and (max-width:950px) {
+.res{display:none !important;}
+.antires{display:inline-block !important;}
 }
