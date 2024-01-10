@@ -13,6 +13,7 @@ margin:0 auto;padding:0 20px;width:100%;max-width:1200px;
 .last-child{margin-bottom:0 !important;}
 .img{width:100%;;max-width:300px;}
 .antires{display:none !important;}
+.iframe-s{height:6500px;}
 /* responsive */
 @media screen and (max-width:750px) {
 .fs{font-size:20px;}
@@ -26,4 +27,10 @@ margin:0 auto;padding:0 20px;width:100%;max-width:1200px;
 @media screen and (max-width:950px) {
 .res{display:none !important;}
 .antires{display:inline-block !important;}
+}
+@media screen and (max-width:500px) {
+.iframe-s{height:5000px;}
+}
+@media screen and (max-width:380px) {
+.iframe-s{height:5600px;}
 }
