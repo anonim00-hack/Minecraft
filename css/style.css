@@ -3,7 +3,7 @@ body{background:rgb(239, 239, 239);padding-top:90px;}
 .container{
 margin:0 auto;padding:0 20px;width:100%;max-width:1200px;
 }
-.special-btn{background:white;box-shadow:inset 0 0 0 3px #dc3545;color:#dc3545;font-weight:bold;}
+.special-btn{background:white;box-shadow:inset 0 0 0 3px #dc3545;color:#dc3545;}
 .special-text{color:blue;font-style:italic;border:none;background:transparent;}
 .column-2{display:flex;flex-direction:column;align-items:center;}
 .line-x{background:red;width:100%;height:2px;border:none;}
